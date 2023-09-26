@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# PyCharm files
+.idea/
+
+# VSCode files
+.vscode/
+
+# Local configuration
+*.local
+*.env
+.env.*
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+blue-collar-connect-1378c-42e629d16ba2.json
