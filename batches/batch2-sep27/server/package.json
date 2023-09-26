@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node ./dist/src/index.js",
+    "get-client-token": "tsx src/test/getIdToken.ts",
+    "build": "tsc && tsc-alias"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.0",
+    "busboy": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "firebase": "^11.3.1",
+    "firebase-admin": "^13.1.0",
+    "hono": "^4.7.5",
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server": "file:",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@types/busboy": "^1.5.4",
+    "@types/node": "^20.11.17",
+    "@types/react": "19.0.12",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.11",
+    "tsx": "^4.7.1",
+    "typescript": "^5.7.3"
+  }
+}
